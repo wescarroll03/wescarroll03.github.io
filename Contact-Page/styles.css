@@ -1,0 +1,87 @@
+.container{
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-rows: 15vh 50vh 33vh;
+    grid-row-gap: 1em;
+    height: 100vh;
+    }
+    
+.body{
+    margin:0;
+    max-height: auto;
+    max-width: 600px;
+    display: inline-block;
+}
+    
+.header{
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+    background-color: #3c78d8
+    ;
+    color: white;
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    max-width: 50000px;
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+    text-align: center;
+    list-style: none;
+}
+.navbutton{
+    background-color: #cccccc;
+    color: black;
+    border: none;
+    padding: 12px 8px;
+    font-size: 1.18rem;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+}
+
+.navbutton:hover {
+    background-color: #bbdbf2;
+
+}
+
+.main {
+    text-align: center;
+    background-color: #bbdbf2;
+}
+    
+
+.main h1{ 
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+}
+
+.main h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+}
+
+.main h3{
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+}
+
+.footer{
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    grid-row-start: 3; 
+    grid-row-end: 4; 
+    background-color: #3c78d8;
+    color: white;
+    padding: 10vw 20vw;
+    align-content: center;
+}
+
+.box {
+    text-align: center;
+    padding-top: 1vw;
+    font-family: 'Bebas Neue';
+}

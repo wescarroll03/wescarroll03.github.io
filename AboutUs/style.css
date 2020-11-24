@@ -1,0 +1,69 @@
+
+.container {
+    font-family: 'Bebas Neue';
+display: grid;
+grid-template-columns: 10vh 10vh 10vh;
+grid-template-rows: 50vh 50vh 30vh;
+grid-template-areas: "header header header"
+                    "main main main main"
+                    "footer footer footer footer";
+}
+.header, .main, .footer {
+    padding: 2.5cm;
+}
+.header {
+    grid-area: header;
+    background-color:#3c78d8;
+    font-family:'Bebas Neue'; 
+    text-align: center;
+    font-stretch: ultra-expanded;
+    font-size: 2.5em;
+    list-style: none;
+}
+
+.main {
+    grid-area: main;
+    border-width: 3cm;
+    background-color:#bbdbf2;
+    font-family:'Bebas Neue'; 
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5em;
+}
+.footer {
+    grid-area: footer;
+    border-width: 3cm;
+    background: #3c78d8;
+    justify-self: stretch;
+    font-family: 'Bebas Neue'; 
+    font-size: 2.5em;
+    text-align: center;
+    font-stretch: semi-expanded;
+
+}
+
+.navbutton{
+    width: 8vw;
+    height:20vh;
+    grid-area: navbutton;
+    background-color: #cccccc;
+    color: black;
+    border: none;
+    padding: 12px 8px;
+    font-size: 1.18rem;
+    display: block;
+    block-size: 2rem;
+    border-radius: 8px;
+    font: 'Bebas Neue';
+    float: right;
+    
+}
+
+.navbutton:hover {
+    background-color: #bbdbf2;
+
+}
+
+
+
+

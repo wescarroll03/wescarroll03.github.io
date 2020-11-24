@@ -1,0 +1,75 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'bebas neue';
+}
+
+
+.btn-secondary {
+    color: #000;
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+
+.btn-secondary:hover{
+    background-color: #3c78d8;
+    color: #ffffff;
+}
+.btn-info {
+    color: #000;
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+
+.btn-info:hover{
+    background-color: #3c78d8;
+    color: #ffffff;
+}
+
+
+.quote{
+    background-color: #3c78d8;
+    height:15vh;
+    font-size: xx-large;
+    text-align: center;
+    
+   
+}
+.site-title{
+    background-color: #bbdbf2;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14vh;
+    
+   
+}
+.site-title li{
+    font-size: 3vh;
+}
+
+
+.input-group{
+    padding-top: 70px;
+}
+
+.benefits{
+    background-color: #6e9dbf;
+    padding-left: 2vw;
+    height:20vh;
+
+}
+
+.club-news{
+    background-color: #6e9dbf;
+    padding-left: 2vw;
+    height:20vh;
+}
+
+img {
+    height: 50vh;
+    width: 100vw;
+}
+
+
